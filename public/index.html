@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Welfare Trust</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+   
+   
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <!-- animation on scroollin -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    html {
+     scroll-behavior: smooth;
+    }
+    body
+    {
+         background: #f7f8fa !important;
+    }
+    .fav {
+        /* background-color:yellow; */
+        width: 160px;
+        margin: auto;
+    }
+/* header start */
+    .header {
+    /* margin: 0 auto; */
+    background-color: whitesmoke;
+    top: 0;
+    width: 100%;
+    z-index:999;
+  }
+
+
+@media screen and (max-width: 800px) {
+
+      .header{
+        position: relative;
+        box-shadow: none;
+      }
+    }
+
+/* header end */
+
+    @media screen and (max-width: 800px) {
+        .img {
+            height: 300px;
+        }
+        #Saylani-logo{
+            width: 50%;
+            /* float: left; */
+        }
+    }
+    
+    @media screen and (min-width: 800px) {
+        .favicon {
+            width: 50%;
+        }
+        #Saylani-logo{
+            width: 120%;
+            text-align: center;
+        }
+    }
+    /* slider start */
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    /* slider end */
+    /* header social icon start */
+    
+    .header-social-menu ul {
+        padding: 0px 0px;
+        margin: 0px;
+    }
+    
+    .header-social-menu ul li {
+        /* color: white;   */
+        list-style: none;
+        margin: 0 5%;
+        float: left;
+    }
+    
+    .header-social-menu ul li a {
+        color: white;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .header-social-menu ul {
+            margin: 5% 20%;
+        }
+    }
+    /* header social icon end  */
+    /* header button start */
+    
+    #header-button {
+        margin: 2px 0px;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 800px) {
+        #header-button {
+            margin: 5px 0px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (min-width: 801px) {
+        #header-button [type=button] {
+            margin: 1px 0px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    /* header button end */
+    /* social icons start */
+    
+    .social-menu ul {
+        /* position: absolute;
+    top: 50%;
+    left: 50%; */
+        /* transform: translate(-50%, -50%); */
+        padding: 0;
+        margin: 0;
+        /* display: flex; */
+    }
+    
+    .social-menu ul li {
+        list-style: none;
+        margin: 0 2px;
+        float: left;
+    }
+    
+    .social-menu ul li .fa {
+        color: #000000;
+        font-size: 15px;
+        line-height: 30px;
+        transition: .5s;
+    }
+    
+    .social-menu ul li .fa:hover {
+        color: #ffffff;
+    }
+    
+    .social-menu ul li a {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0, 0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .social-menu ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    
+    .social-menu ul li:nth-child(1) a:hover {
+        background-color: #3b5999;
+    }
+    
+    .social-menu ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+    
+    .social-menu ul li:nth-child(3) a:hover {
+        background-color: #e4405f;
+    }
+    
+    .social-menu ul li:nth-child(4) a:hover {
+        background-color: #cd201f;
+    }
+    
+    .social-menu ul li:nth-child(5) a:hover {
+        background-color: #0077B5;
+    }
+    /* social icon end */
+
+    /* navvbar start */
+    .navbar {
+            background: #f7f8fa !important;
+            /* float: left; */
+            display: flex;
+        }
+        
+        .dropdown {
+            border-radius: 0;
+            border: 0;
+        }
+        
+        .dropdown-menu {
+            background: #f7f8fa;
+            border: 0;
+            top: 100%;
+            border-radius: 0px 0px 5px 5px;
+        }
+        .dropdown-item:hover {
+            background: #085ca5;
+            color: white;
+        }
+        
+        .dropdown-menu a {
+            color: black;
+        }
+        
+        /*.navbar .nav-item .nav-link {
+            color: black !important;
+        }*/
+        
+        .navbar .nav-item .nav-link:hover .navbar .nav-item .nav-link {
+            color: red !important;
+        }
+
+
+        .navbar .nav-item .nav-link {
+            color: #333333;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .navbar .nav-item .nav-link {
+            padding: 8px 12px;
+            border-radius: 30px;
+        }
+        .navbar .nav-item .nav-link {
+          
+            /* padding: 0px 12px; */
+            display: inline-block;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            color: #888;
+            outline: 0;
+            line-height: 1.42857143;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            -webkit-tap-highlight-color: transparent;
+        }
+     
+        .navbar .nav-item .nav-link:hover
+        {
+
+            background: #085ca5;
+            color: white;
+        }
+        .navbar .nav-item:hover{
+            color: white;
+            background-color: #085ca5;
+            /* padding: 8px 12px; */
+            border-radius: 30px;
+            font-size: 14px;
+
+        }
+     
+        @media screen and (max-width: 768px) {
+         
+            .navbar .nav-item:first-child{
+              background-color: #085ca5;
+          
+            }
+            .navbar .nav-item:hover{
+               border-radius: 0px; 
+            }
+
+
+            
+        
+    }
+    /* navbar end */
+
+/* scroll start*/
+
+    #scrollbutton{
+
+         cursor: pointer;
+         background-color: black ;
+         opacity: .3;
+         color: white ;
+         padding: 3px 15px;
+         position: fixed;
+          bottom: 10px;
+          right: 20px;
+         font-size: 170% ;
+         font-weight: bold;
+    } 
+       #scrollbutton:hover{
+       color: #085ca5;
+       transition: color 1s linear;
+       opacity: .4;
+    }
+
+   
+        /* scroll end */
+
+
+</style>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+
+            <div class="row bg-primary"    style="padding: 1%;">
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+
+                    <div class="header-social-menu">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  text-white text-center ">
+                    Millions of people's life has changed, millions more awaiting your donation
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+
+                    <div id="header-button">
+                        <button type="button" class="btn btn-default btn-sm">UK Donor</button>
+                        <button type="button" class="btn btn-default btn-sm">Donate Now</button>
+                        <button type="button" class="btn btn-default btn-sm">SMIT Results
+                            <z/button>
+
+                    </div>
+
+                </div>
+                <br/>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- <img src="./Images/Saylani-logo.png" id="Saylani-logo" style="margin: 5%;"/>    -->
+    <!-- navbar start -->
+    <div class="container-fluid header" >
+        <div class="row"  >
+             <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+
+                     <img src="./Images/Saylani-logo.png" id="Saylani-logo" style="margin-top: 7px" />   
+
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <nav class="navbar navbar-expand-md  navbar-light bg-light" style="margin-top:1.5%;">
+                            <button class="navbar-toggler  ml-auto" style="outline: none;border: 1px solid  #0077B5;background-color: #0077B5;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon " ></span>
+                            </button>
+                            <!-- <a class="navbar-brand" href="#"><img src="./Images/Saylani-logo.png" width="40%"/>   </a> -->
+                    
+                            <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                                <ul class="navbar-nav  ml-auto mt-2 mt-lg-0 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown dmenu">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                         About
+                                       </a>
+                                        <div class="dropdown-menu sm-menu">
+                                            <a class="dropdown-item" href="#">Introduction</a>
+                                            <a class="dropdown-item" href="#">Chairman Message</a>
+                                            <a class="dropdown-item" href="#">Saylani Annual Report</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown dmenu">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                         Saylani Services
+                                       </a>
+                                        <div class="dropdown-menu sm-menu">
+                                            <a class="dropdown-item" href="#">Education <i class="	fa fa-angle-right" style="float: right;margin-top: 5px"></i></a>
+                                            <a class="dropdown-item" href="#">Medical <i class="	fa fa-angle-right" style="float: right;margin-top: 5px"></i></a>
+                                            <a class="dropdown-item" href="#">Welfare <i class="	fa fa-angle-right" style="float: right;margin-top: 5px"></i></a>
+                                            <a class="dropdown-item" href="#">Hajj Application Form</a>
+                                            <a class="dropdown-item" href="#">Saylaani Dasterkhawn</a>
+                                        </div>
+                                    </li>
+                    
+                                    <li class="nav-item dropdown dmenu">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                         Future Project
+                                       </a>
+                                        <div class="dropdown-menu sm-menu">
+                                            <a class="dropdown-item" href="#">Saylani University</a>
+                                            <a class="dropdown-item" href="#">Saylani City</a>
+                                        </div>
+                                    </li>
+                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Media</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">News</a>
+                                    </li>
+                    
+                                      <li class="nav-item dropdown dmenu">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                          Donation
+                                          </a>
+                                        <div class="dropdown-menu sm-menu">
+                                            <a class="dropdown-item" href="#">Bank Details</a>
+                                            <a class="dropdown-item" href="#">Sadqa</a>
+                                            <a class="dropdown-item" href="#">Aqiqa</a>
+                                            <a class="dropdown-item" href="#">Other Donations</a>
+                                            <a class="dropdown-item" href="#">Corona Effecties</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+             </div>
+        </div>
+    </div>
+
+    <!-- navbar end -->
+  
+
+    <!-- Slider  start-->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div id="demo" class="carousel slide" data-ride="carousel" style="width: 100%;">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Images/Banner.jpg" alt="Los Angeles" width="100%" height="300">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Images//slider2.png" alt="Chicago" width="100%" height="300">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Images//BloodBank.jpg" alt="New York" width="100%" height="300">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- Slider  end-->
+
+    <!-- Marquee start -->
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <p style="margin-top: 12px; background-color: #316DC3; color: white;padding-top: 1%;padding-bottom: .5%; ">
+                    <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+                        <font color="#00FF00">(News-1 Dated:15-06-2019)<font color="#FFFFFF">&#160;&#160;PIAICNext Phase Admission in Islamabad And Faisalabad" . <a href="" style="color: blue">More Details</a> &#160;&#160;
+              <font color="#00FF00">(News-2 Dated:15-05-2019)<font color="#FFFFFF">&#160;&#160;Saylani Welfare Announced "Donation Application" . <a href="" style="color: blue">More Details</a> &#160;&#160;
+                <font color="#00FF00">(News-3 Dated:07-05-2019)<font color="#FFFFFF">&#160;&#160;Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . <a href="" style="color: blue">More Details</a> &#160;&#160;
+                  <font color="#00FF00">(News-4 Dated:08-03-2019)<font color="#FFFFFF">&#160;&#160;Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. <a href="" style="color: blue">More Details</a> &#160;&#160;
+                    <font color="#00FF00">(News-5 Dated:25-02-2019)<font color="#FFFFFF">&#160;&#160;PIAIC Entrance Exam Merit Ranking List Announced. <a href="" style="color: blue">More Details</a>&#160;&#160;
+                      <font color="#00FF00">(News-6 Dated:23-02-2019)<font color="#FFFFFF">&#160;&#160;President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="" style="color: blue">More Details</a> &#160;&#160;                    
+                        <font color="#00FF00">(News-7 Dated:19-02-2019)<font color="#FFFFFF">&#160;&#160;Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. <a href="" style="color: blue">More Details</a> &#160;&#160;     
+                        </marquee>
+
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Marquee end -->
+
+        <!-- Details start -->
+        <section>
+          <div class="container">
+            <div class="row">
+               <div class="col">
+                  <h2  style="font-family: serif;" class="font-weight-bold  text-center text-primary  text-uppercase ">Intro<span style="color: #427900 ;">duction</span></h2>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="fav">
+                <br/>  <br/>
+                <div style="width: 50px; height: 3px;background-color: #427900 ;float: left;"></div> 
+                <div style="float:left;position: relative;bottom: 50px"> <img src="./Images/favicon.png" width="60px" height="60px" /> </div> 
+                <div style="width: 50px; height: 3px;background-color: #427900 ;float: left;"></div> 
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<section>
+    <div class="container"   style="text-align: justify;line-height: 1.9; width: 80%;">
+      <div class="row" >
+        <div class="col"
+        
+        data-aos="fade-right"
+       
+        >
+          Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+          <br/>   <br/>
+          We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially.       
+          <br/>   <br/>
+          Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis.               
+          <br/>   <br/>
+          We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need.
+          <br/>   <br/>
+      </div> 
+
+  </div>
+
+</div>
+</section>
+<!-- Details end -->
+
+<!-- counting start -->
+
+<section>
+    <div class="container-fluid" style="background-color: rgb(0, 109, 195);;font-family: serif;">
+       <br/> <br/> <br/>
+
+       <div class="row"
+
+       data-aos="zoom-in"
+
+       >
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="text-center">
+              <img src="./Images/icon_food_png.png"  style="height: 40px;width: 40px;margin-top: 5%;">
+              <h2 data-animation-duration="2000" data-value="125000" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0"style="font-family:Georgia, 'Times New Roman', Times, serif;">125000</h2>
+              <h5 class="text-white text-uppercase font-weight-600">Daily Dastrakhan<span class="text-themeout-colored font-weight-600"><font color="#00FF00">(Monthly)</font></h5>
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="text-center">
+                <img src="./Images/icon_family_png.png" style="height: 40px;width: 40px;margin-top: 5%;">
+                <h2 data-animation-duration="2000" data-value="7500" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0" style="font-family:Georgia, 'Times New Roman', Times, serif;">7500</h2>
+                <h5 class="text-white text-uppercase font-weight-600">Family Adoption<span class="text-themeout-colored font-weight-600"><font color="#00FF00">(Monthly)</font></h5>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="text-center">
+                <img src="./Images/icon_medical_png.png" style="height: 40px;width: 40px;margin-top: 5%;">
+                <h2 data-animation-duration="2000" data-value="43749" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0" style="font-family:Georgia, 'Times New Roman', Times, serif;">43749</h2>
+                <h5 class="text-white text-uppercase font-weight-600">Medical<span class="text-themeout-colored font-weight-600"><font color="#00FF00">(Monthly)</font></h5>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="text-center">
+                <img src="./Images/icon_education_png.png" style="height: 40px;width: 40px;margin-top: 5%;">
+                <h2 data-animation-duration="2000" data-value="180000" style="font-family:Georgia, 'Times New Roman', Times, serif;" class="animate-number text-white font-42 font-weight-500 mt-0 mb-0">180000</h2>
+                <h5 class="text-white text-uppercase font-weight-600">Education <span class="text-themeout-colored font-weight-600"><font color="#00FF00">(Monthly)</font></h5>
+            </div>
+        </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        </div>
+    </section>
+    <!-- counting end -->
+    <br/>
+    <br/>
+    <br/>
+    <!-- cards start-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 style="font-family: serif;" class="font-weight-bold  text-center text-primary  text-uppercase ">WHAT WE<span style="color: #427900 ;">ARE DOING?</span></h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="fav">
+                        <br/>
+                        <br/>
+                        <div style="width: 50px; height: 3px;background-color: #427900 ;float: left;"></div>
+                        <div style="float:left;position: relative;bottom: 50px"> <img src="./Images/favicon.png" width="60px" height="60px" /> </div>
+                        <div style="width: 50px; height: 3px;background-color: #427900 ;float: left;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section style="background-color: rgb(237, 237, 237);">
+        <div class="container" style="color: rgb(0, 109, 195);font-family: Merriweather, serif;font-size: 18px;font-weight: 900;font-size:20px;">
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="row">
+             
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"
+                data-aos="zoom-in-down"
+                
+                >
+                    <div style="text-align: center;width: 100%;height:200px ;background-color:#ffff;box-shadow: 1PX 7PX 10PX -7px  black;margin: 2% 0%;">
+                        <img src="./Images/onlinesadqah.png" alt="pic" style="margin-top: 5%;" />
+                        <br/>
+                        <br/>
+                        <p style="color: rgb(0, 109, 195);">ONLINE SADQAH</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"
+
+                data-aos="zoom-in-down"
+
+                >
+                    <div style="text-align: center;width: 100%;height:200px ;background-color:#ffff;box-shadow: 1PX 7PX 10PX -7px  black;margin: 2% 0%;">
+                        <img src="./Images/welfare.png" alt="pic" style="margin-top: 5%;" />
+                        <br/>
+                        <br/>
+                        <p style="color: rgb(0, 109, 195);">WELFARE</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"
+                data-aos="zoom-in-down"
+
+                >
+                    <div style="text-align: center;width: 100%;height:200px ;background-color:#ffff;box-shadow: 1PX 7PX 10PX -7px  black;margin: 2% 0%;">
+                        <img src="./Images/medical.png" alt="pic" style="margin-top: 5%;" />
+                        <br/>
+                        <br/>
+                        <p style="color: rgb(0, 109, 195);">MEDICAL</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"
+                data-aos="zoom-in-down"
+
+                >
+                    <div style="text-align: center;width: 100%;height:200px ;background-color:#ffff;box-shadow: 1PX 7PX 10PX -7px  black;margin: 2% 0%;">
+                        <img src="./Images/Dastarkhwan.png" alt="pic" style="margin-top: 5%;" />
+                        <br/>
+                        <br/>
+                        <p style="color: rgb(0, 109, 195);">DASTARKHWAN</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"
+                data-aos="zoom-in-down"
+
+                >
+                    <div style="text-align: center;width: 100%;height:200px ;background-color:#ffff;box-shadow: 1PX 7PX 10PX -7px  black;margin: 2% 0%;">
+                        <img src="./Images/ROPLANT.png" alt="pic" style="margin-top: 5%;" />
+                        <br/>
+                        <br/>
+                        <p style="color: rgb(0, 109, 195);">RO PLANT</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4"
+                data-aos="zoom-in-down"
+                >
+                    <div style="text-align: center;width: 100%;height:200px ;background-color:#ffff;box-shadow: 1PX 7PX 10PX -7px  black;margin: 2% 0%;">
+                        <img src="./Images/education.png" alt="pic" style="margin-top: 5%;" />
+                        <br/>
+                        <br/>
+                        <p style="color: rgb(0, 109, 195);">EDUCATION</p>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+
+    </section>
+    <!-- cards end -->
+    <br/>
+    <!-- project start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8"
+                
+                data-aos="fade-right"
+
+                >
+                    <p style="color: rgb(0, 109, 195); font-size: 150%;font-family: serif;font-weight: bolder;"><span style="border-bottom:2px solid #427900 ">MISS</span>ION AND UPCOMING PROJECTS</p>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <div style="background-color: rgb(237, 237, 237);height: 70px; margin: 2% 0%;">
+                                <img src="Images/Hepatitis.png" style="position: relative;top: 22%;" />
+                                <span style="font-size: 110%;font-weight: bolder;color: rgb(0, 109, 195);margin-left: 50px;position: relative;top: 22%; ">HEPATITIS</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <div style="background-color: rgb(237, 237, 237);height: 70px; margin: 2% 0%;">
+                                <img src="Images/housing.png" style="position: relative;top: 22%;" />
+                                <span style="font-size: 110%;font-weight: bolder;color: rgb(0, 109, 195);margin-left: 50px;position: relative;top: 22%; ">HOUSING SOCIETY</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <div style="background-color: rgb(237, 237, 237);height: 70px; margin: 2% 0%;">
+                                <img src="Images/IT.png" style="position: relative;top: 22%;" />
+                                <span style="font-size: 110%;font-weight: bolder;color: rgb(0, 109, 195);margin-left: 50px;position: relative;top: 22%; ">IT LITERACY</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <div style="background-color: rgb(237, 237, 237);height: 70px; margin: 2% 0%;">
+                                <img src="Images/tharparkar.png" style="position: relative;top: 22%;" />
+                                <span style="font-size: 110%;font-weight: bolder;color: rgb(0, 109, 195);margin-left: 50px;position: relative;top: 22%; ">THARPARKAR</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"
+
+                data-aos="fade-down"
+
+
+                >
+                    <p style="color: rgb(0, 109, 195); font-size: 150%;font-family: serif;font-weight: bolder;"><span style="border-bottom:2px solid #427900 ">Upco</span>ming Events</p>
+                    <marquee  direction="up" width="250" height="200" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();" style="width: 100%;text-align: justify">
+                        Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan .<a href="https://www.facebook.com/saylaniwelfare/posts/3164679946891260?__tn__=-R" style="color: blue">More Details</a>
+                        <br>
+                        <br> Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad .<a href="https://www.facebook.com/saylaniwelfare/photos/a.258515937507690/3152781434747778/?type=3&theater>" style="color: blue">More Details</a>
+                        <br>
+                        <br> Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .<a href="https://www.facebook.com/saylaniwelfare/posts/3124996217526300?__xts__[0]=68.ARCElwXqFXBXobZcA_UIl5WsTnqek6hA0692UZgzLiTQcX71VvEVoMgzqDV_LCU8l4vgjmKHex8j5abeGcQPzz-0Vo7g8gNqrP0CK04uhT29KI7ZBXw7L0UhSE9vpr7JOS4591gwSiYhmPbI_exl5O0PUbYyqzRyVjDhZf833fadxaHMxR3LURDcRfhfFRurM3x6cKNgZ7XwQi2vP6tA2-XS4HUzYNRUfZ5Yc4iUJAwXHOGi64EA62Drmy5c0mv0CZumqreWzE6JGBGOlQC5dMh7k07-qNBGwItqzarzu8CiNWC9kZMwzYyExhOY7JKF76U1ZzEbClh6A-yQYJ-qY1jbYQ&__tn__=-R>" style="color: blue">More Details</a>
+                        <br>
+                        <br> PIAIC Entrance Exam Merit Ranking List Announced.<a href="" style="color: blue">More Details</a>
+                        <br>
+                        <br> President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="https://www.facebook.com/saylaniwelfare/posts/3135103563182232?__xts__[0]=68.ARD9PTgM3DL_2vvulRqQ-b25KUD2P8X7TSS9g6gbxDfRdIBqgjNGJffSbV0ZcFmUFF5Ocrn-wvtpvDbjWBQxq0UHTlRJR1vEkgUOfm8Vk0ltcQp9K5q268QBcUMjujlPyCnBIxXcbe_Qjqbw1DXfCLQ1fFwBdGk77ndYxRXPrUVHrYybrBb5jWxu8GJQ37RpI7LLayc6xkve6gO149Ud-NWv_eF72blzToVI2fZW2ZWJUlRFSgWFK5jgrDGcsP-I7NBis9UXNfBBb55nXahKzJHvloneJh93hN9Wc3bIyvpn7v1IJSixyqcGRr_KHC-mO46gL9JUYx_acVfGdQDLUCBORw&__tn__=-R>" style="color: blue">More Details</a>
+                    </marquee>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- project end -->
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!-- gallery start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 style="font-family: serif;" class="font-weight-bold  text-center text-primary  text-uppercase ">IMAGE<span style="color: #427900 ;"> GALLERY</span></h2>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="fav">
+                        <br/>
+                        <br/>
+                        <div style="width: 50px; height: 3px;background-color: #427900 ;float: left;"></div>
+                        <div style="float:left;position: relative;bottom: 50px"> <img src="./Images/favicon.png" width="60px" height="60px" /> </div>
+                        <div style="width: 50px; height: 3px;background-color: #427900 ;float: left;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row"
+            data-aos="flip-right"
+
+            >
+                <div class="col-sm-0 col-md-1 col-lg-1 col-xl-1"> </div>
+
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <a target="_blank" href="./Images/rashan2.jpg">
+                        <img src="./Images/rashan2.jpg" alt="Cinque Terre" width="100%" height="120px" style="margin: 2% 0px;" class="img">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <a target="_blank" href="./Images/food.jpg">
+                        <img src="./Images/food.jpg" alt="Cinque Terre" width="100%" height="120px" style="margin: 2% 0px;" class="img">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <a target="_blank" href="./Images/hazrat.jpg">
+                        <img src="./Images/hazrat.jpg" alt="Cinque Terre" width="100%" height="120px" style="margin: 2% 0px;" class="img">
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <a target="_blank" href="./Images/food.jpg">
+                        <img src="./Images/food.jpg" alt="Cinque Terre" width="100%" height="120px" style="margin: 2% 0px;" class="img">
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <a target="_blank" href="./Images/hazrat2.jpg">
+                        <img src="./Images/hazrat2.jpg" alt="Cinque Terre" width="100%" height="120px" style="margin: 2% 0px;" class="img">
+                    </a>
+                </div>
+
+                <div class="col-sm-0 col-md-1 col-lg-1 col-xl-1"> </div>
+
+            </div>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <!-- gallery end  -->
+
+    <!-- footer start  -->
+    <footer>
+        <div class="container-fluid" style="background-color: rgb(48, 46, 46);;">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="widget dark" style="color: #bbb;padding-top: 7%;">
+                        <img class="mb-20" alt="" src="images/saylani/Saylani-logo.png ">
+                        <p>Head Office,
+                            <br> A-25, Bahadurabad Chowrangi Karachi, Pakistan </p>
+                        <ul class="list-inline mt-5">
+                            <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored mr-5"></i>UAN: 111-729-526 </li>
+                            <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored mr-5"></i>(+0092-213) 4130786-90</li>
+                            <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored mr-5"></i>CELL: 92-311-1729526</li>
+                            <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored mr-5"></i>USA NO +1(716)941 7792 </li>
+                            <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored mr-5"></i>UK NO (+44)115 970 6256 </li>
+                            <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="87eee9e1e8c7f4e6feebe6e9eef0e2ebe1e6f5e2a9e4e8ea">[email&#160;protected]</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div style="padding-top: 7%;">
+                        <p style="color: white;font-size: 20px;font-weight: bolder;border-bottom: 1px solid rgb(207, 191, 191);"><span style="border-bottom: 2px solid green;padding-bottom: 1.5px;">Useful</span> Links</p>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <p style="color: white;font-size: 20px;font-weight: bolder;padding-top:7% ;">Connect With Us</p>>
+
+                    <div class="social-menu">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 bg-primary " style="padding: .7% 5%; color: white;font-size: 15px;">
+                    Copyright © 2020 Saylani Welfare
+                </div>
+            </div>
+                    <a id="scrollbutton" href="#" ><i class="fa fa-angle-up"></i></a>
+    </footer>
+    <!-- footer end   -->
+
+    
+  <!-- animation on scroollin -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+
+        {
+
+
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        }
+    );
+  </script>
+
+<!-- firebase -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</body>
+
+<script>
+    $(document).ready(function() {
+    
+    
+    //   for counting
+        $('.animate-number').each(function() {
+            $(this).prop('animate-number', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 2000,
+                easing: 'swing',
+                step: function(now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
+    
+  
+    //for navbar
+    
+        $('.navbar-light .dmenu').hover(function() {
+            $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+        }, function() {
+            $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+        });
+//for scroll button
+
+// for maka a last button to go for start
+
+  // Add smooth scrolling to all links
+  $("#scrollbutton").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+
+  //scroll diplay when secreen move down 
+
+
+$(window).scroll(function(){
+
+if($(this).scrollTop() > 150)
+{
+    $("#scrollbutton").css("display", "block");
+
+}
+else
+{
+    $("#scrollbutton").css("display", "none");
+
+
+}
+
+});
+//header fixed when scroll down and min width of screen  800 
+
+$(window).scroll(function() {    
+		var height = $(window).scrollTop();  
+		if(height  > 100) {
+              if($(window).width() > 800)
+		         {
+                    $(".header").css({"position": "fixed","box-shadow" : "-2px 5px 3px -4px grey"});
+                 }
+
+		}
+         else
+         {
+			       $(".header").css({"position": "relative","box-shadow" : "none"});
+		}
+	});
+
+
+});
+
+
+</script>
+
+</html>
